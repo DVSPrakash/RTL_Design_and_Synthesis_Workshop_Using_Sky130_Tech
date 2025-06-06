@@ -27,7 +27,7 @@ This workshop is intended for students, hobbyists, and engineers who want to lea
 - Tools: `git`, `iverilog`, `gtkwave`, `yosys`, and a text editor
 
 
-## Workshop Strucutre Day Wise
+## Workshop Strucuture Day Wise
 ### DAY 1: Introduction to Verilog RTL design and Synthesis
     - Introduction to open-source simulator "iverilog" and synthesizer "yosys"
     - Running synthesis on simplke designs using the SKY130 technology library
