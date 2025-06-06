@@ -6,7 +6,7 @@ The agenda of this workshop is to understand the RTL Design and Synthesis proces
 
 - [About This Workshop](#about-this-workshop)
 - [Prerequisites](#prerequisites)
-- [Workshop Structure](#workshop-structure-daywise)
+- [Workshop Structure](#workshop-structure-day-wise)
 
 ## About This Workshop
 
@@ -26,27 +26,31 @@ This workshop is intended for students, hobbyists, and engineers who want to lea
 - A Linux environment (or WSL on Windows/macOS)
 - Tools: `git`, `iverilog`, `gtkwave`, `yosys`, and a text editor
 
+
 ## Workshop Strucutre Day Wise
 ### DAY 1: Introduction to Verilog RTL design and Synthesis
-    L1 - Learn about open-source simulator "iverilog"
-    L2 - Start with Yosys and Sky130 PDKs
+    - Introduction to open-source simulator "iverilog" and synthesizer "yosys"
+    - Running synthesis on simplke designs using the SKY130 technology library
 
 
 ### DAY 2: Timing libs, hierarchical vs flat synthesis and efficient flop coding styles
-    L1 - Understanding timing .libs
-    L2 - Hierarchical vs Flat Synthesis
-    L3 - Various Flop Coding Styles and Optimization
+    - Understanding timing .libs
+    - Hierarchical vs Flat Synthesis
+    - Various Flop Coding Styles and Optimization
 
 
 ### DAY 3: Combinational and sequential optimizations
-    L1 - Introduction to optimizations
-    L2 - Combinational logic optimizations
-    L3 - Sequential logic optimizations
-    L4 - Sequential optimizations for unused outputs
+    - Introduction to optimizations
+    - Combinational logic optimizations
+    - Sequential logic optimizations
+    - Sequential optimizations for unused outputs
 
 
 ### DAY 4: GLS, blocking vs non-blocking and Synthesis-Simulation mismatch
-    L1 - GLS blocking vs non-blocking and Synthesis-Simulation mismatch statements
+    - GLS concepts
+    - Synthesis-Simulation mismatch 
+    - blocking and non-blocking
+    - Caveats with block statements
 
 
 ### DAY 5: Optimization in synthesis
