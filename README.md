@@ -1,4 +1,4 @@
-# RTL_Design_and_Synthesis_Workshop_Using_SKY130
+# RTL Design and Synthesis Workshop Using SKY130
 
 The agenda of this workshop is to understand the RTL Design and Synthesis process in VLSI using various open-source tools. This process is where we provide the synthesis netlist to the Physical Design team. By the end of this workshop, we will be able to understand how logic conversion takes place from a simple verilog code written for any level of logic.
 
@@ -20,10 +20,12 @@ The agenda of this workshop is to understand the RTL Design and Synthesis proces
     L4 - Sequential optimizations for unused outputs
 
 
-## DAY 4: GLS blocking vs non-blocking and Synthesis-Simulation mismatch
+## DAY 4: GLS, blocking vs non-blocking and Synthesis-Simulation mismatch
     L1 - GLS blocking vs non-blocking and Synthesis-Simulation mismatch statements
 
 
 ## DAY 5: Optimization in synthesis
-    L1 - If Case constructs
-    L2 - For loop and for generate
+    - If Case constructs
+    - Incomplete If Case constructs
+    - Incomplete Overlapping Case constructs
+    - For loop and for generate
